@@ -72,7 +72,11 @@ body {
   background: url('../img/bg-pixelated.jpg') repeat
 }
 
-
+body.page-home #upper-wrap { /* TODO: Remove temp overflow and height properties */
+  background: url('../img/sprite-home-ui.png') repeat-x;
+  height:691px;
+  overflow: hidden
+}
 
 
 
