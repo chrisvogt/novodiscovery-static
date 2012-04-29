@@ -214,6 +214,8 @@ img#laptop { background-position: 0px -355px; margin-left: -74px }
   margin-top: 24px
 }
 
+
+
 /*
  * Primary Styles: Navigation
  */
@@ -260,6 +262,11 @@ body {
  
 #ncontent p {
   text-align: justify
+}
+
+#copyr {
+  color: #ccc;
+  font-size: .875em
 }
  
 @media only screen and (min-width: 35em) {
