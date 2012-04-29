@@ -87,7 +87,24 @@ body {
   margin: 0 auto;
 }
 
+#logo357 {
+  margin: 22px 0;
+  float: left
+}
 
+#thinknovo .slogan {
+  height: 125px;
+  background: green;
+  float: left;
+  clear: right;
+  margin-left: 8px;
+  padding-left: 24px
+}
+
+.slogan span {
+  line-height: 125px;
+  border: 1px dotted green;
+}
 
 @media only screen and (min-width: 35em) {
   
