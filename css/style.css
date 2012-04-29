@@ -226,6 +226,23 @@ footer#lower-bar {
   .info_box a:hover {
     cursor: pointer
   }
+  
+  .info_box {
+    border: 1px dotted purple;
+  }
+  
+  .info_box .icon {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .icon img {
+    background: url('../img/sprite-reasons.png');
+  }
+  
+  img#array {
+    
+  }
  
 @media only screen and (min-width: 35em) {
   
