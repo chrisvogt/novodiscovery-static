@@ -212,6 +212,16 @@ img#laptop { background-position: 0px -355px; margin-left: -74px }
   margin-top: 24px
 }
 
+/*
+ * Primary Styles: Buttons and Elements
+ */
+ .bttn-green {
+   background: url('../img/sprite-bttns.png');
+   width: 220px;
+   height: 128px;
+   margin-top: 24px;
+ }
+
 
 
 /*
@@ -269,7 +279,7 @@ body {
   color: #c46d3b
 }
 
-.info_box a span {
+.learnmore span {
   color: #181818
 }
  
@@ -284,6 +294,17 @@ body {
 
 #right-col {
   line-height: 165px;
+}
+
+.bttn-green {
+  text-align: center;
+}
+
+.bttn-green span {
+  font-size: 1.429em;
+  color: #efefef;
+  text-shadow: 1px 1px 2px #181818;
+  filter: dropshadow(color=#181818, offx=1, offy=1);
 }
  
 @media only screen and (min-width: 35em) {
