@@ -76,7 +76,7 @@ body {
 
 #upper-wrap { /* TODO: Remove temp overflow and height properties */
   background: url('../img/sprite-home-ui.png') repeat-x;
-  height:691px;
+  height:693px;
   overflow: hidden
 }
 
@@ -110,6 +110,15 @@ body {
   float: right;
   clear: right;
   line-height: 125px
+}
+
+#teaser {
+  height: 365px;
+  width: 100%;
+}
+
+#sub-teaser {
+  height: 200px
 }
 
 @media only screen and (min-width: 35em) {
