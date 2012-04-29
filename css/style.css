@@ -204,7 +204,15 @@ footer#lower-bar {
   .blue { color: #43a5ed }
   .grey { color: #686868 }
   .black { color: #181818 }
+  
+  .info_box p {
+    text-align: justify;
+    padding-top: 14px
+  }
  
+  .info_box a {
+    float: right;
+  }
  
 @media only screen and (min-width: 35em) {
   
