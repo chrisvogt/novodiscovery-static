@@ -132,6 +132,36 @@ nav#primary {
   height: 200px
 }
 
+#inthenews {
+  background: url('../img/pane-news.png');
+  width: 960px;
+  height: 379px;
+}
+
+footer#lower-bar {
+  width: 100%;
+  height: 165px;
+  background: url('../img/sprite-home-ui.png') 0 -693px;
+}
+
+/*
+ * Primary Navigation
+ */
+ 
+ nav#primary ul {
+   width: 450px;
+   list-style: none;
+   height: 52px;
+   margin: 0 auto;
+ }
+ 
+ nav#primary ul li {
+   float: left;
+   padding: 0 16px;
+   line-height: 52px
+ }
+ 
+ 
 @media only screen and (min-width: 35em) {
   
 
