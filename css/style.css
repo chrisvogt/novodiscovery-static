@@ -106,6 +106,12 @@ body {
   border: 1px dotted green;
 }
 
+#clogin {
+  float: right;
+  clear: right;
+  line-height: 125px
+}
+
 @media only screen and (min-width: 35em) {
   
 
