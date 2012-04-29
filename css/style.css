@@ -138,10 +138,20 @@ nav#primary {
   height: 200px
 }
 
+.info_box a:hover {
+  cursor: pointer
+}
+
+.info_box .icon {
+  margin: 0;
+  padding: 0;
+}
+
 #inthenews {
   background: url('../img/pane-news.png');
   width: 960px;
   height: 379px;
+  margin: 0 auto;
 }
 
 footer#lower-bar {
@@ -166,16 +176,27 @@ footer#lower-bar {
   padding: 0;
 }
 
+#reasons .grid_3 {
+  text-align: center;
+  position: relative
+}
+
 #reasons .icon {
   height: 148px;
-  position: relative;
   text-align: center;
 }
 
-#reasons .icon img {
+.icon img {
+  background: url('../img/sprite-reasons.png');
   position: absolute;
-  bottom: 0;
+  bottom: 42px;
+  left: 50%;
 }
+
+img#array { background-position: 0px 0px; margin-left: -109px }  
+img#server { background-position: 0px -94px; margin-left: -49.5px }
+img#proc { background-position: 0px -233px; margin-left: -70px }
+img#laptop { background-position: 0px -355px; margin-left: -74px }
 
 
 
@@ -223,26 +244,6 @@ footer#lower-bar {
     color: #181818
   }
   
-  .info_box a:hover {
-    cursor: pointer
-  }
-  
-  .info_box {
-    border: 1px dotted purple;
-  }
-  
-  .info_box .icon {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .icon img {
-    background: url('../img/sprite-reasons.png');
-  }
-  
-  img#array {
-    
-  }
  
 @media only screen and (min-width: 35em) {
   
