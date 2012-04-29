@@ -156,14 +156,25 @@ footer#lower-bar {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center
 }
 
 #reasons li {
   float: left;
   width: 235px;
-  text-align: center;
   margin: 0;
   padding: 0;
+}
+
+#reasons .icon {
+  height: 148px;
+  position: relative;
+  text-align: center;
+}
+
+#reasons .icon img {
+  position: absolute;
+  bottom: 0;
 }
 
 /*
