@@ -7,9 +7,12 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
+/*
+ * Typography
+ */
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body { margin: 0; font-size: .875em; line-height: 1.4; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -40,6 +43,9 @@ ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
+/*
+ * Layout Reset
+ */
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 svg:not(:root) { overflow: hidden; }
 figure { margin: 0; }
@@ -67,7 +73,7 @@ td { vertical-align: top; }
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
 /*
- * Layout
+ * Primary Styles: Layout
 */
 
 body {
@@ -161,7 +167,7 @@ footer#lower-bar {
 }
 
 /*
- * Primary Navigation
+ * Primary Styles: Navigation
  */
  
  nav#primary ul {
@@ -176,6 +182,15 @@ footer#lower-bar {
    padding: 0 16px;
    line-height: 52px
  }
+ 
+ /*
+  * Primary Styles: Typography
+  */
+  
+  /* Color helper classes */
+  .blue { color: #43a5ed }
+  .grey { color: #686868 }
+  .black { color: #181818 }
  
  
 @media only screen and (min-width: 35em) {
