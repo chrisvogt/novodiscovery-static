@@ -251,6 +251,14 @@ body {
   font-size: 1em
 }
 
+.headline h2 {
+  color: #a5a5a5;
+  font-weight: 400;
+  text-align: justify;
+  text-shadow: 1px 1px 1px #cccccc;
+  filter: dropshadow(color=#cccccc, offx=1, offy=1);
+}
+
 .info_box p {
   text-align: justify;
   padding-top: 14px
