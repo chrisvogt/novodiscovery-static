@@ -101,16 +101,14 @@ body {
 
 #thinknovo .slogan {
   height: 125px;
-  background: green;
   float: left;
   clear: right;
   margin-left: 8px;
-  padding-left: 24px
+  padding-left: 24px;
 }
 
 .slogan span {
   line-height: 125px;
-  border: 1px dotted green;
 }
 
 #clogin {
@@ -245,6 +243,13 @@ body {
 .blue { color: #43a5ed }
 .grey { color: #686868 }
 .black { color: #181818 }
+.ngreen { color: #788880 }
+
+#thinknovo .slogan {
+  color: #788880;
+  font-family: "Georgia", Serif;
+  font-size: 1em
+}
 
 .info_box p {
   text-align: justify;
