@@ -212,6 +212,15 @@ footer#lower-bar {
  
   .info_box a {
     float: right;
+    color: #c46d3b
+  }
+  
+  .info_box a span {
+    color: #181818
+  }
+  
+  .info_box a:hover {
+    cursor: pointer
   }
  
 @media only screen and (min-width: 35em) {
