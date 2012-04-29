@@ -138,6 +138,11 @@ nav#primary {
   height: 200px
 }
 
+.info_box {
+  position: relative;
+  height: 180px
+}
+
 .info_box a:hover {
   cursor: pointer
 }
@@ -145,6 +150,11 @@ nav#primary {
 .info_box .icon {
   margin: 0;
   padding: 0;
+}
+
+.learnmore {
+  position: absolute;
+  bottom: 2px; right: 4px
 }
 
 #inthenews {
@@ -198,7 +208,11 @@ img#server { background-position: 0px -94px; margin-left: -49.5px }
 img#proc { background-position: 0px -233px; margin-left: -70px }
 img#laptop { background-position: 0px -355px; margin-left: -74px }
 
-
+#ncontent header {
+  height: 80px;
+  overflow: hidden;
+  margin-top: 24px
+}
 
 /*
  * Primary Styles: Navigation
@@ -217,33 +231,36 @@ img#laptop { background-position: 0px -355px; margin-left: -74px }
    line-height: 52px
  }
  
- /*
-  * Primary Styles: Typography
-  */
-  
-  body {
-    font-family: 'Droid Sans', sans-serif;
-  }
-  
-  /* Color helper classes */
-  .blue { color: #43a5ed }
-  .grey { color: #686868 }
-  .black { color: #181818 }
-  
-  .info_box p {
-    text-align: justify;
-    padding-top: 14px
-  }
+/*
+* Primary Styles: Typography
+*/
+
+body {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+/* Color helper classes */
+.blue { color: #43a5ed }
+.grey { color: #686868 }
+.black { color: #181818 }
+
+.info_box p {
+  text-align: justify;
+  padding-top: 14px
+}
+
+.info_box a {
+  float: right;
+  color: #c46d3b
+}
+
+.info_box a span {
+  color: #181818
+}
  
-  .info_box a {
-    float: right;
-    color: #c46d3b
-  }
-  
-  .info_box a span {
-    color: #181818
-  }
-  
+#ncontent p {
+  text-align: justify
+}
  
 @media only screen and (min-width: 35em) {
   
