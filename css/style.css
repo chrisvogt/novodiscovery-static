@@ -200,6 +200,10 @@ footer#lower-bar {
   * Primary Styles: Typography
   */
   
+  body {
+    font-family: 'Droid Sans', sans-serif;
+  }
+  
   /* Color helper classes */
   .blue { color: #43a5ed }
   .grey { color: #686868 }
