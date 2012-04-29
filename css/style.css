@@ -144,6 +144,22 @@ footer#lower-bar {
   background: url('../img/sprite-home-ui.png') 0 -693px;
 }
 
+#reasons {
+  width: 100%;
+  height: 194px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#reasons li {
+  float: left;
+  width: 235px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 /*
  * Primary Navigation
  */
