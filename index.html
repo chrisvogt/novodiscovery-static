@@ -39,14 +39,11 @@
     </header>
 
     <div id="teaser" role="banner">
-      <div class="slider">
-        <div id="slide1">
-          <!-- slide 1 -->
-        </div>
-        <div id="slide2">
-          <!-- slide 2 -->
-        </div>
-      </div>
+      <ul class="slides">
+        <li id="slide1"></li>
+        <li id="slide2"></li>
+      </ul>
+      <div id="tease-controls"></div>
     </div><!-- #teaser -->
 
     <div id="sub-teaser" class="container_12">
@@ -178,6 +175,15 @@
 
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
+  
+  <script>
+      $(window).load(function() {
+          $('#teaser').flexslider({
+              animation: "fade",
+              controlsContainer: "#tease-controls"
+          });
+      });
+  </script>
 
   <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
