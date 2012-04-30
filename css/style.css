@@ -129,7 +129,7 @@ nav#primary {
 }
 
 #teaser {
-  height: 365px;
+  height: 366px;
   width: 100%;
 }
 
@@ -517,24 +517,23 @@ html[xmlns] .slides {
     cursor: default;
 }
 
-/* JK Teaser Styling & Slides */
 #teaser {
     width: 100%;
-    height: 365px;
+    height: 366px;
 }
 
 #teaser li {
-    height: 365px;
+    height: 366px;
     display: block;
 }
 
-/* Join Page Slides */
+/* Slides */
 #slide1 {
-    background: blue
+    background: url('../img/slides/slide-home-weare.jpg') center;
 }
 
 #slide2 {
-    background: green
+    background: url('../img/slides/slide-home-incloud.jpg') center;
 }
 
 #tease-controls {
