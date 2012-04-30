@@ -159,7 +159,7 @@ nav#primary {
   background: url('../img/pane-news.png');
   width: 960px;
   height: 379px;
-  margin: 0 auto;
+  margin: 0 auto 12px;
 }
 
 footer#lower-bar {
@@ -220,6 +220,12 @@ img#laptop { background-position: 0px -355px; margin-left: -74px }
    width: 220px;
    height: 128px;
    margin-top: 24px;
+   
+   
+ }
+ 
+ .bttn-green:hover {
+   background-position: 0 -136px;
  }
 
 
@@ -229,7 +235,7 @@ img#laptop { background-position: 0px -355px; margin-left: -74px }
  */
  
  nav#primary ul {
-   width: 450px;
+   width: 410px;
    list-style: none;
    height: 52px;
    margin: 0 auto;
@@ -255,6 +261,7 @@ body {
 .black { color: #181818 }
 .ngreen { color: #788880 }
 
+
 #thinknovo .slogan {
   color: #788880;
   font-family: "Georgia", Serif;
@@ -269,6 +276,15 @@ body {
   filter: dropshadow(color=#cccccc, offx=1, offy=1);
 }
 
+nav#primary a {
+  text-decoration: none;
+  color: #989898
+}
+
+nav#primary a:hover {
+  color: #C46D3B
+}
+
 .info_box p {
   text-align: justify;
   padding-top: 14px
@@ -277,6 +293,15 @@ body {
 .info_box a {
   float: right;
   color: #c46d3b
+}
+
+a.learnmore {
+  text-decoration: none;
+  color: #C46D3B
+}
+
+a.learnmore:hover {
+  color: #181818!important;
 }
 
 .learnmore span {
@@ -298,6 +323,7 @@ body {
 
 .bttn-green {
   text-align: center;
+  text-decoration: none
 }
 
 .bttn-green span {
@@ -305,6 +331,18 @@ body {
   color: #efefef;
   text-shadow: 1px 1px 2px #181818;
   filter: dropshadow(color=#181818, offx=1, offy=1);
+  line-height: 128px
+}
+
+a.newcase {
+  text-decoration: none;
+  color: #444;
+  text-align: center;
+  margin-top: 4px
+}
+
+a.newcase:hover {
+  border-bottom: 1px solid #181818
 }
  
 @media only screen and (min-width: 35em) {
