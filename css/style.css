@@ -73,378 +73,399 @@ td { vertical-align: top; }
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
 /*
- * Primary Styles: Layout
+ * Primary Styles:Layout
 */
 
 body {
-  background: url('../img/bg-pixelated.jpg') repeat
+    background: url("../img/bg-pixelated.jpg") repeat;
 }
 
-#upper-wrap { /* TODO: Remove temp overflow and height properties */
-  background: url('../img/sprite-home-ui.png') repeat-x;
-  height:693px;
-  overflow: hidden
+#upper-wrap {
+    /* TODO: Remove temp overflow and height properties */
+    background: url("../img/sprite-home-ui.png") repeat-x;
+    height: 693px;
+    overflow: hidden;
 }
 
 #top-bar {
-  width: 960px;
-  height: 125px;
-  overflow: visible;
-  margin: 0 auto;
-  position: relative;
+    height: 125px;
+    margin: 0px auto;
+    overflow: visible;
+    position: relative;
+    width: 960px;
 }
 
 #logo357 {
-  margin: 22px 0;
-  float: left
+    float: left;
+    margin: 22px 0px;
 }
 
 #thinknovo .slogan {
-  height: 125px;
-  float: left;
-  clear: right;
-  margin-left: 8px;
-  padding-left: 24px;
+    clear: right;
+    float: left;
+    height: 125px;
+    margin-left: 8px;
+    padding-left: 24px;
 }
 
 .slogan span {
-  line-height: 125px;
+    line-height: 125px;
 }
 
 #clogin {
-  float: right;
-  clear: right;
-  line-height: 125px
+    clear: right;
+    color: #181818;
+    float: right;
+    margin-top: 54px;
+}
+
+#clogin:hover {
+    text-decoration: none;
 }
 
 nav#primary {
-  width: 694px;
-  height: 52px;
-  background: url('../img/element-primary-nav.png');
-  position: absolute;
-  z-index: 8000;
-  bottom: -26px;
-  left: 50%;
-  margin-left: -347px
+    background: url("../img/element-primary-nav.png");
+    bottom: -26px;
+    height: 52px;
+    left: 50%;
+    margin-left: -347px;
+    position: absolute;
+    width: 694px;
+    z-index: 8000;
 }
 
 #teaser {
-  height: 366px;
-  width: 100%;
+    height: 366px;
+    width: 100%;
 }
 
 #sub-teaser {
-  height: 200px
+    height: 200px;
 }
 
 .info_box {
-  position: relative;
-  height: 180px
+    height: 180px;
+    position: relative;
 }
 
 .info_box a:hover {
-  cursor: pointer
+    cursor: pointer;
 }
 
 .info_box .icon {
-  margin: 0;
-  padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .learnmore {
-  position: absolute;
-  bottom: 2px; right: 4px
+    bottom: 2px;
+    position: absolute;
+    right: 4px;
 }
 
 #inthenews {
-  background: url('../img/pane-news.png');
-  width: 960px;
-  height: 379px;
-  margin: 0 auto 12px;
+    background: url("../img/pane-news.png");
+    height: 379px;
+    margin: 0px auto 12px;
+    width: 960px;
 }
 
 footer#lower-bar {
-  width: 100%;
-  height: 165px;
-  background: url('../img/sprite-home-ui.png') 0 -693px;
+    background: url("../img/sprite-home-ui.png") 0px -693px;
+    height: 165px;
+    width: 100%;
 }
 
 #reasons {
-  width: 100%;
-  height: 194px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center
+    height: 194px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
 }
 
 #reasons li {
-  float: left;
-  width: 235px;
-  margin: 0;
-  padding: 0;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 235px;
 }
 
 #reasons .grid_3 {
-  text-align: center;
-  position: relative
+    position: relative;
+    text-align: center;
 }
 
 #reasons .icon {
-  height: 148px;
-  text-align: center;
+    height: 148px;
+    text-align: center;
 }
 
 .icon img {
-  background: url('../img/sprite-reasons.png');
-  position: absolute;
-  bottom: 42px;
-  left: 50%;
+    background: url("../img/sprite-reasons.png");
+    bottom: 42px;
+    left: 50%;
+    position: absolute;
 }
 
-img#array { background-position: 0px 0px; margin-left: -109px }  
-img#server { background-position: 0px -94px; margin-left: -49.5px }
-img#proc { background-position: 0px -233px; margin-left: -70px }
-img#laptop { background-position: 0px -355px; margin-left: -74px }
+img#array {
+    background-position: 0px 0px;
+    margin-left: -109px;
+}
+
+img#server {
+    background-position: 0px -94px;
+    margin-left: -49.5px;
+}
+img#proc {
+    background-position: 0px -233px;
+    margin-left: -70px;
+}
+img#laptop {
+    background-position: 0px -355px;
+    margin-left: -74px;
+}
 
 #ncontent header {
-  height: 80px;
-  overflow: hidden;
-  margin-top: 24px
+    height: 80px;
+    margin-top: 24px;
+    overflow: hidden;
 }
 
 /*
- * Primary Styles: Buttons and Elements
+ * Primary Styles:Buttons and Elements
  */
- .bttn-green {
-   background: url('../img/sprite-bttns.png');
-   width: 220px;
-   height: 128px;
-   margin-top: 24px;
-   
-   
- }
- 
- .bttn-green:hover {
-   background-position: 0 -136px;
- }
- 
- div#search {
-   margin-top: 52px;
- }
- 
- input#s {
-   width: 159px;
-   padding: 0 8px;
-   height: 34px;
-   border: none;
-   color: #ccc;
-   background: url('../img/element-search.png');
-   float: left
- }
- 
- input#submit {
-   background: url('../img/element-search.png') -175px 0;
-   width: 32px;
-   height: 34px;
-   float: left;
- }
- 
- input#s:focus {
-   outline: none
- }
+.bttn-green {
+    background: url("../img/sprite-bttns.png");
+    height: 128px;
+    margin-top: 24px;
+    width: 220px;
+}
+
+.bttn-green:hover {
+    background-position: 0px -136px;
+}
+
+div#search {
+    margin-top: 52px;
+}
+
+input#s {
+    background: url("../img/element-search.png");
+    border: none;
+    color: #ccc;
+    float: left;
+    height: 34px;
+    padding: 0px 8px;
+    width: 159px;
+}
+
+input#submit {
+    background: url("../img/element-search.png") -175px 0px;
+    float: left;
+    height: 34px;
+    width: 32px;
+}
+
+input#s:focus {
+    outline: none;
+}
 
 
 
 /*
- * Primary Styles: Navigation
+ * Primary Styles:Navigation
  */
- 
- nav#primary ul {
-   width: 410px;
-   list-style: none;
-   height: 52px;
-   margin: 0 auto;
- }
- 
- nav#primary ul li {
-   float: left;
-   padding: 0 16px;
-   line-height: 52px
- }
- 
+
+nav#primary ul {
+    height: 52px;
+    list-style: none;
+    margin: 0px auto;
+    width: 410px;
+}
+
+nav#primary ul li {
+    float: left;
+    line-height: 52px;
+    padding: 0px 16px;
+}
+
 /*
-* Primary Styles: Typography
+* Primary Styles:Typography
 */
 
 body {
-  font-family: 'Droid Sans', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 /* Color helper classes */
-.blue { color: #43a5ed }
-.grey { color: #686868 }
-.black { color: #181818 }
-.ngreen { color: #788880 }
+.blue {
+    color: #43a5ed;
+}
+.grey {
+    color: #686868;
+}
+.black {
+    color: #181818;
+}
+.ngreen {
+    color: #788880;
+}
 
 
 #thinknovo .slogan {
-  color: #788880;
-  font-family: "Georgia", Serif;
-  font-size: 1em
+    color: #788880;
+    font-family: "Georgia", Serif;
+    font-size: 1em;
 }
 
 .headline h2 {
-  color: #a5a5a5;
-  font-weight: 400;
-  text-align: justify;
-  text-shadow: 1px 1px 1px #cccccc;
-  filter: dropshadow(color=#cccccc, offx=1, offy=1);
+    color: #a5a5a5;
+    filter: dropshadow(color=#ccc, offx=1, offy=1);
+    font-weight: 400;
+    text-align: justify;
+    text-shadow: 1px 1px 1px #ccc;
 }
 
 nav#primary a {
-  text-decoration: none;
-  color: #989898
+    color: #989898;
+    text-decoration: none;
 }
 
 nav#primary a:hover {
-  color: #C46D3B
+    color: #c46d3b;
 }
 
 .info_box p {
-  text-align: justify;
-  padding-top: 14px
+    padding-top: 14px;
+    text-align: justify;
 }
 
 .info_box a {
-  float: right;
-  color: #c46d3b
+    color: #c46d3b;
+    float: right;
 }
 
 a.learnmore {
-  text-decoration: none;
-  color: #C46D3B
+    color: #c46d3b;
+    text-decoration: none;
 }
 
 a.learnmore:hover {
-  color: #181818!important;
+    color: #181818!important;
 }
 
 .learnmore span {
-  color: #181818
+    color: #181818;
 }
- 
+
 #ncontent p {
-  text-align: justify
+    text-align: justify;
 }
 
 #copyr {
-  color: #ccc;
-  font-size: .875em;
-  clear: left
+    clear: left;
+    color: #ccc;
+    font-size: 0.875em;
 }
 
 #copyr a {
-  color: #ccc
+    color: #ccc;
 }
 
 #copyr a:hover {
-  text-decoration: none
+    text-decoration: none;
 }
 
 #right-col {
-  line-height: 165px;
+    line-height: 165px;
 }
 
 .bttn-green {
-  text-align: center;
-  text-decoration: none
+    text-align: center;
+    text-decoration: none;
 }
 
 .bttn-green span {
-  font-size: 1.429em;
-  color: #efefef;
-  text-shadow: 1px 1px 2px #181818;
-  filter: dropshadow(color=#181818, offx=1, offy=1);
-  line-height: 128px
+    color: #efefef;
+    filter: dropshadow(color=#181818, offx=1, offy=1);
+    font-size: 1.429em;
+    line-height: 128px;
+    text-shadow: 1px 1px 2px #181818;
 }
 
 a.newcase {
-  text-decoration: none;
-  color: #444;
-  text-align: center;
-  margin-top: 4px
+    color: #444;
+    margin-top: 4px;
+    text-align: center;
+    text-decoration: none;
 }
 
 a.newcase:hover {
-  border-bottom: 1px solid #181818
+    border-bottom: 1px solid #181818;
 }
 
 /*
  * Flexslider Styles
  */
- 
-/*
- * jQuery FlexSlider v1.8
- * http://flex.madebymufffin.com
- *
- * Copyright 2011, Tyler Smith
- * Free to use under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- */
+
 /* Browser Resets */
 .flex-container a:active,
 .flexslider a:active {
-    outline: none
+    outline: none;
 }
 
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
-    margin: 0;
-    padding: 0;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 /* FlexSlider Necessary Styles
 *********************************/
 .flexslider {
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 #teaser .slides > li {
-    display: none
-} /* Hide the slides before the JS is loaded. Avoids image jumping */
+    display: none;
+}
+/* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {
-    max-width: 100%;
     display: block;
+    max-width: 100%;
 }
 
 .flex-pauseplay span {
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 /* Clearfix for the .slides element */
 .slides:after {
+    clear: both;
     content: ".";
     display: block;
-    clear: both;
+    height: 0px;
+    line-height: 0px;
     visibility: hidden;
-    line-height: 0;
-    height: 0;
 }
 
 html[xmlns] .slides {
-    display: block
+    display: block;
 }
 
 * html .slides {
-    height: 1%
+    height: 1%;
 }
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load 
-.no-js .slides > li:first-child {display: block;} */
+.no-js .slides > li:first-child {
+    display: block;;
+}*/
 /* FlexSlider Default Theme
 *********************************/
 .flexslider {
@@ -455,128 +476,127 @@ html[xmlns] .slides {
 }
 
 .flexslider .slides {
-    zoom: 1
+    zoom: 1;
 }
 
 .flexslider .slides > li {
-    position: relative
+    position: relative;
 }
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
 .flex-container {
-    zoom: 1;
     position: relative;
+    zoom: 1;
 }
 /* Caption style */
 /* IE rgba() hack */
 .flex-caption {
+    -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#4c000000, endColorstr=#4C000000);
     background: none;
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#4c000000, endColorstr=#4C000000);
     zoom: 1;
 }
 
 .flex-caption {
-    width: 96%;
+    background: rgba(0, 0, 0, .3);
+    bottom: 0px;
+    color: #fff;
+    font-size: 14px;
+    left: 0px;
+    line-height: 18px;
     padding: 2%;
     position: absolute;
-    left: 0;
-    bottom: 0;
-    background: rgba(0,0,0,.3);
-    color: #fff;
-    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-    font-size: 14px;
-    line-height: 18px;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, .3);
+    width: 96%;
 }
 /* Direction Nav */
 .flex-direction-nav li a {
-    width: 52px;
-    height: 52px;
-    margin: -13px 0 0;
-    display: block;
-    background: url(../img/libs/flexslider/bg_direction_nav.png) no-repeat 0 0;
-    position: absolute;
-    top: 50%;
+    background: url("../img/libs/flexslider/bg_direction_nav.png") no-repeat 0px 0px;
     cursor: pointer;
+    display: block;
+    height: 52px;
+    margin: -13px 0px 0px;
+    position: absolute;
     text-indent: -9999px;
+    top: 50%;
+    width: 52px;
 }
 
 .flex-direction-nav li .next {
-    background-position: -52px 0;
+    background-position: -52px 0px;
     right: -21px;
 }
 
 .flex-direction-nav li .prev {
-    left: -20px
+    left: -20px;
 }
 
 .flex-direction-nav li .disabled {
-    opacity: .3;
-    filter: alpha(opacity=30);
     cursor: default;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
 }
 /* Control Nav */
 .flex-control-nav {
-    width: 100%;
-    position: absolute;
     bottom: -30px;
+    position: absolute;
     text-align: center;
+    width: 100%;
 }
 
 .flex-control-nav li {
-    margin: 0 0 0 5px;
     display: inline-block;
+    margin: 0px 0px 0px 5px;
     zoom: 1;
-    display: inline;
 }
 
 .flex-control-nav li:first-child {
-    margin: 0
+    margin: 0px;
 }
 
 .flex-control-nav li a {
-    width: 13px;
-    height: 13px;
-    display: block;
-    background: url(../img/libs/flexslider/bg_control_nav.png) no-repeat 0 0;
+    background: url("../img/libs/flexslider/bg_control_nav.png") no-repeat 0px 0px;
     cursor: pointer;
+    display: block;
+    height: 13px;
     text-indent: -9999px;
+    width: 13px;
 }
 
 .flex-control-nav li a:hover {
-    background-position: 0 -13px
+    background-position: 0px -13px;
 }
 
 .flex-control-nav li a.active {
-    background-position: 0 -26px;
+    background-position: 0px -26px;
     cursor: default;
 }
 
 #teaser {
-    width: 100%;
     height: 366px;
+    width: 100%;
 }
 
 #teaser li {
-    height: 366px;
     display: block;
+    height: 366px;
 }
 
 /* Slides */
 #slide1 {
-    background: url('../img/slides/slide-home-weare.jpg') center no-repeat;
+    background: url("../img/slides/slide-home-weare.jpg") center no-repeat;
 }
 
 #slide2 {
-    background: url('../img/slides/slide-home-incloud.jpg') center;
+    background: url("../img/slides/slide-home-incloud.jpg") center;
 }
 
 #tease-controls {
-    width: 90%;
-    height: 20px;
-    position: relative;
     bottom: 220px;
-    margin: 0 auto;
-} 
+    height: 20px;
+    margin: 0px auto;
+    position: relative;
+    width: 90%;
+}
  
 @media only screen and (min-width: 35em) {
   
