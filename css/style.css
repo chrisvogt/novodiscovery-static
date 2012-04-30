@@ -455,11 +455,11 @@ html[xmlns] .slides {
 }
 /* Direction Nav */
 .flex-direction-nav li a {
-    width: 94px;
-    height: 94px;
+    width: 52px;
+    height: 52px;
     margin: -13px 0 0;
     display: block;
-    background: url(../img/sprite-slidecontrols.png) no-repeat 0 0;
+    background: url(../img/libs/flexslider/bg_direction_nav.png) no-repeat 0 0;
     position: absolute;
     top: 50%;
     cursor: pointer;
@@ -467,7 +467,7 @@ html[xmlns] .slides {
 }
 
 .flex-direction-nav li .next {
-    background-position: 0 -94px;
+    background-position: -52px 0;
     right: -21px;
 }
 
@@ -503,7 +503,7 @@ html[xmlns] .slides {
     width: 13px;
     height: 13px;
     display: block;
-    background: url(../img/bg_control_nav.png) no-repeat 0 0;
+    background: url(../img/libs/flexslider/bg_control_nav.png) no-repeat 0 0;
     cursor: pointer;
     text-indent: -9999px;
 }
