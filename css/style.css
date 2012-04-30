@@ -228,6 +228,31 @@ img#laptop { background-position: 0px -355px; margin-left: -74px }
  .bttn-green:hover {
    background-position: 0 -136px;
  }
+ 
+ div#search {
+   margin-top: 52px;
+ }
+ 
+ input#s {
+   width: 159px;
+   padding: 0 8px;
+   height: 34px;
+   border: none;
+   color: #ccc;
+   background: url('../img/element-search.png');
+   float: left
+ }
+ 
+ input#submit {
+   background: url('../img/element-search.png') -175px 0;
+   width: 32px;
+   height: 34px;
+   float: left;
+ }
+ 
+ input#s:focus {
+   outline: none
+ }
 
 
 
@@ -315,7 +340,16 @@ a.learnmore:hover {
 
 #copyr {
   color: #ccc;
-  font-size: .875em
+  font-size: .875em;
+  clear: left
+}
+
+#copyr a {
+  color: #ccc
+}
+
+#copyr a:hover {
+  text-decoration: none
 }
 
 #right-col {
@@ -529,7 +563,7 @@ html[xmlns] .slides {
 
 /* Slides */
 #slide1 {
-    background: url('../img/slides/slide-home-weare.jpg') center;
+    background: url('../img/slides/slide-home-weare.jpg') center no-repeat;
 }
 
 #slide2 {
