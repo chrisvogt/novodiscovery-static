@@ -1,10 +1,12 @@
-# novoDiscovery, an HTML5 eDiscovery-themed home page template
+# [novoDiscovery, ediscovery-themed home page template](http://chrisvogt.github.com/novodiscovery-static/)
 
 HTML5 home page static view template for non-existant cloud-based electronic discovery (eDiscovery) company. This project includes the home page layout, and can be forked to use as a starter for your own project, theme, or design.
 
-## Screenshot
+## Preview
 
-![Screenshot - Novodiscovery design template](http://i.imgur.com/5I4Hc.jpg)
+Be sure to check out [novoDiscovery on Github Pages](http://chrisvogt.github.com/novodiscovery-static/).
+
+![Screenshot - novoDiscovery design template](http://i.imgur.com/5I4Hc.jpg)
 
 ## Quick start
 
