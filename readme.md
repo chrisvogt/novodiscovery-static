@@ -1,4 +1,4 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# novoDiscovery, an HTML5 eDiscovery-themed home page template
 
 HTML5 home page static view template for non-existant cloud-based electronic discovery (eDiscovery) company. This project includes the home page layout, and can be forked to use as a starter for your own project, theme, or design.
 
